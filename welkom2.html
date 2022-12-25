@@ -15,20 +15,18 @@
 }
 #date{
     font-size:large;
-    color:black;
 }
 body{
     background-color: #7b3579;
 }
     </style>
 </head>
-
 <body>
-<div id="lbl"></div>
+    <div id="lbl"></div>
   
 
 <script>
-
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
   
 var weekday = new Array(7);
 weekday[0] = "zondag";
@@ -57,7 +55,6 @@ else if (hrs >= 17 && hrs <= 24)
 document.getElementById('lbl').innerHTML =
     greet+=`<div id="date"> Het is ${date}</div>`;
   
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');  
+  
 </script> 
 </body>
-
