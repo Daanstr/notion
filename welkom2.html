@@ -1,12 +1,11 @@
-<a class="weatherwidget-io" href="https://forecast7.com/nl/52d266d79/hengelo/" data-label_1="Hengelo" data-label_2="Weer" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#7b3579" >Hengelo Weer</a>
+<a class="weatherwidget-io" href="https://forecast7.com/nl/52d266d79/hengelo/" data-label_1="Hengelo" mooncolor="#fff100" data-cloudcolor="#939393" data-textcolor="#000000" data-label_2="Weer" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#fffff" >Hengelo Weer</a>
 <head>
-    <link rel='stylesheet' href='welkom2.css' type='text' />
     <title>Greeting Message</title> 
     <style>
 #lbl {
     font-family: monospace;
     font-size: x-large;
-    color: white;
+    color: black;
     padding: 0px;
     text-align: center;
     line-height: 1.25;
@@ -16,9 +15,7 @@
 }
 #date{
     font-size:large;
-}
-body{
-    background-color: #7b3579;
+    color: black;
 }
     </style>
 </head>
@@ -49,7 +46,7 @@ var greet;
 if (hrs < 12)
   greet = ' Goedemorgen  ';
 else if (hrs >= 12 && hrs <= 17)
-  greet = ' Goeden middag  ';
+  greet = ' Goedemiddag  ';
 else if (hrs >= 17 && hrs <= 24)
   greet = ' Goedenavond   ';
 
