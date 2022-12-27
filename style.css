@@ -19,6 +19,7 @@
 /* carousel */
 .carousel{
    position: relative;
+   overflow: hidden;
 }
 
 .carousel_inner{
